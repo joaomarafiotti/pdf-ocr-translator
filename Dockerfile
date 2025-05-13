@@ -12,3 +12,9 @@ WORKDIR /app
 
 # Copiar arquivos para dentro do contêiner
 COPY . .
+
+# Instalar dependências Python
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Comando padrão: executar OCR em input/sample.pdf (se existir)
+CMD ["python", "main_ocr.py", "input/sample.pdf"]
