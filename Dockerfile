@@ -9,3 +9,6 @@ RUN apt-get update && apt-get install -y \
 
 # Criar diretório de trabalho
 WORKDIR /app
+
+# Copiar arquivos para dentro do contêiner
+COPY . .
