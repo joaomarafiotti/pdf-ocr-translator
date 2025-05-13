@@ -33,6 +33,7 @@ docker run -v "$PWD:/app" pdf-ocr python translate_block.py blocos_ocr/texto_001
 
 
 ## Estrutura do Projeto
+
 pdf-ocr-translator/
 - main_ocr.py               # Extração de texto via OCR
 - translate_block.py        # Tradução de arquivos extraídos
@@ -42,9 +43,9 @@ pdf-ocr-translator/
 - blocos_ocr/               # Arquivos .txt gerados com os textos
 
 ## Tecnologias Usadas
-Python 3.10
-Tesseract OCR
-Poppler-utils
-PDF2Image
-Deep-Translator
-Docker
+- Python 3.10
+- Tesseract OCR
+- Poppler-utils
+- PDF2Image
+- Deep-Translator
+- Docker
