@@ -34,12 +34,12 @@ docker run -v "$PWD:/app" pdf-ocr python translate_block.py blocos_ocr/texto_001
 
 ## Estrutura do Projeto
 pdf-ocr-translator/
-main_ocr.py               # Extração de texto via OCR
-translate_block.py        # Tradução de arquivos extraídos
-Dockerfile                # Ambiente Docker automatizado
-requirements.txt          # Dependências Python
-input/                    # PDF de entrada (ex: sample.pdf)
-blocos_ocr/               # Arquivos .txt gerados com os textos
+- main_ocr.py               # Extração de texto via OCR
+- translate_block.py        # Tradução de arquivos extraídos
+- Dockerfile                # Ambiente Docker automatizado
+- requirements.txt          # Dependências Python
+- input/                    # PDF de entrada (ex: sample.pdf)
+- blocos_ocr/               # Arquivos .txt gerados com os textos
 
 ## Tecnologias Usadas
 Python 3.10
